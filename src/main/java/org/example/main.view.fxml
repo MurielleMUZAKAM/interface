@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/22" spacing="10" padding="10">
+    <Label text="Ajouter un produit" />
+    <TextField fx:id="idField" promptText="ID du produit" />
+    <TextField fx:id="nomField" promptText="Nom du produit" />
+    <TextField fx:id="prixField" promptText="Prix du produit" />
+    <TextField fx:id="couleurField" promptText="Couleur du produit" />
+    <TextField fx:id="marqueField" promptText="Marque (pour Electronique)" />
+    <TextField fx:id="dateFabField" promptText="Date de fabrication (pour Alimentaire)" />
+    <TextField fx:id="tailleField" promptText="Taille (pour Vestimentaire)" />
+    <Button text="Ajouter" onAction="#handleAjouterProduit" />
+    <Button text="Supprimer" onAction="#handleSupprimerProduit" />
+    <Button text="Modifier" onAction="#handleModifierProduit" />
+    <Button text="Rechercher par nom" onAction="#handleRechercherParNom" />
+    <Button text="Lister par lettre" onAction="#handleListerParLettre" />
+    <Button text="Afficher nombre de produits" onAction="#handleAfficherNombreProduits" />
+    <Button text="Afficher produits moins chers" onAction="#handleAfficherProduitsMoinsChers" />
+    <Button text="Afficher par catégorie" onAction="#handleAfficherParCategorie" />
+    <Button text="Afficher tous les produits" onAction="#handleAfficherTousProduits" />
+    <Button text="Quitter" onAction="#handleQuitter" />
+</VBox>

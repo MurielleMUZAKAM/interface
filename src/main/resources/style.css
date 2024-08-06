@@ -1,0 +1,15 @@
+/* style.css */
+
+.root {
+    -fx-background-color: lightblue;
+}
+
+.button {
+    -fx-background-color: #ff6347;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-font-size: 14pt;
+    -fx-text-fill: darkblue;
+}
